@@ -9,7 +9,7 @@ npm run dev
 # or
 yarn dev
 ```
-(https://github.com/Zeroya/diploma_three-metaverse/blob/main/public/projfoto.JPG)
+![Image alt](https://github.com/Zeroya/diploma_three-metaverse/blob/main/public/projfoto.JPG)
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
