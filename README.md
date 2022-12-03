@@ -10,6 +10,8 @@ npm run dev
 yarn dev
 ```
 
+<<<<<<< HEAD
+
 ![project photo](https://github.com/Zeroya/diploma_three-metaverse/blob/main/public/projfoto.JPG)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
