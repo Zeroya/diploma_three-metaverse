@@ -68,7 +68,7 @@ const Player = () => {
     let action = "";
 
     if (forward || backward || left || right) {
-      action = "run";
+      action = "CINEMA_4D_Main";
       if (shift) {
         action = "jump";
       }
@@ -96,7 +96,7 @@ const Player = () => {
   }, [forward, backward, left, right, jump, shift]);
 
   useFrame((state, delta) => {
-    if (currentAction.current == "run" || currentAction.current == "jump") {
+    if (currentAction.current == "CINEMA_4D_Main" || currentAction.current == "jump") {
       // calculate towards camera direction
       let angleYCameraDirection = Math.atan2(
         camera.position.x - model.scene.position.x,

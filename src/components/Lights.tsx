@@ -21,7 +21,7 @@ const Lights: React.FC = () => {
         shadow-camera-top={20}
         shadow-camera-bottom={-20}
       />
-      <hemisphereLight args={["#7cdbe6", "#5e9c49", 0.5]} />
+      <hemisphereLight args={["#820000", "#820000", 0.5]} />
     </>
   );
 };
